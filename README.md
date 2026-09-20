@@ -1,28 +1,35 @@
-<<<<<<< HEAD
-# Autonome-zepplin-BLIMP-
+# Autonome Zeppelin BLIMP
 
-## Deleting a file from this repository
+This repository serves as the central knowledge base for project-related files, reports, notes, and supporting materials connected to the Autonome Zeppelin BLIMP work.
 
-If you want to remove a tracked file such as `HvAirship_Design_report.1pdf.pdf`, you can do it either in GitHub or locally.
+## Purpose
 
-### Option 1: Delete from GitHub
+The goal of this repository is to provide a single organized location for:
+- project reports and findings
+- supporting documentation
+- reference files and templates
+- notes and internal documentation
+- data, assets, and related artifacts
+- anything connected to the project’s development and documentation
 
-1. Open the file in the repository.
-2. Click the trash can / "Delete file" button.
-3. Commit the deletion with a message such as `Remove obsolete file`.
-4. Push the branch if required.
+## Repository Role
 
-### Option 2: Delete locally with Git
+This repository is intended to act as a structured hub where all project information can be stored, reviewed, and accessed centrally. It helps keep materials organized and easy to find as the project evolves.
 
-```bash
-git rm "HvAirship_Design_report.1pdf.pdf"
-git commit -m "Remove obsolete file"
-git push origin main
-```
+## Suggested Structure
 
-If the default branch is not `main`, replace it with the correct branch name.
+A clean project structure may look like this:
 
-This removes the file from the Git index and working tree, and the commit records the deletion in the repository history.
-=======
-# Autonome-zepplin-BLIMP- fee
->>>>>>> 6591b47 (commit)
+```text
+.
+├── README.md
+├── docs/
+│   ├── reports/
+│   ├── notes/
+│   └── references/
+├── data/
+├── assets/
+├── scripts/
+├── templates/
+├── exports/
+└── misc/
