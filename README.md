@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Autonome-zepplin-BLIMP-
 
 ## Deleting a file from this repository
@@ -22,3 +23,6 @@ git push origin main
 If the default branch is not `main`, replace it with the correct branch name.
 
 This removes the file from the Git index and working tree, and the commit records the deletion in the repository history.
+=======
+# Autonome-zepplin-BLIMP- fee
+>>>>>>> 6591b47 (commit)
